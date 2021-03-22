@@ -1,34 +1,94 @@
-<!doctype html5>
-<html>
-  <head>
-  	<meta charset="utf-8">
-    <title>AJ's website</title>
-  </head>
-  <body>
-    <h1 style="color: green; font-size: 60px; text-align: center;">Welcome to AJ's site</h1>
-    <p style="margin: 0 100px 0 100px; font-size: 1.5em;">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae temporibus esse suscipit nisi ad.</p>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad, doloribus eos perspiciatis.</p>
-      <div>
-     My typical dinner shopping list:
-    <ul>
-      <li>Milk</li>
-      <li>Donuts</li>
-      <li>Cookies
-        <ul>
-          <li>Chocolate</li>
-          <li>Sugar</li>
-          <li>Peanut Butter</li>
-        </ul>
-      </li>
-      <li>Pepto Bismol</li>
-    </ul>
-  </div>
-    <footer>
-      <hr>
-      <p style="text-align: center;" 
-         onclick="alert('EMAILING US IS USELESS');">
+    <!doctype html5>
+    <html>
+    <head>
+     <meta charset="utf-8">
+     <title>AJ's website!</title>
+     <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">  
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+      </head>
+      <body >
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <div class="content">
+          <div class="topnav">
+           
+            <a href="https://mail.google.com" target="_blank" style=""><i class="fa fa-envelope" aria-hidden="true"></i></a>
+            <a href="https://www.twitter.com" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+            <a href="https://www.researchgate.net/profile/Abhijith-J-2" target="_blank"><i class="ai ai-researchgate" aria-hidden="true"></i></a>
+            <a href="https://scholar.google.co.in/citations?user=fH_CxRoAAAAJ&hl=en" target="_blank"><i class="ai ai-google-scholar" aria-hidden="true"></i></a>
+           
+            <div class="navlist-right"> 
+              <a class="active" href="#about">About</a>
+              <a href="#Publications">Publications</a>
+            </div> 
+          </div>
+          <header class="heading">
+          <h1 class="normal"><span class="thick">Abhijith </span>Jayakumar</h1>
+          <p class="desc">Researcher working on Quantum Computing and Machine Learning.</p>
+        </header>
+        
+        <article>
+          <div class="clearfix">
+          <div class="profile-float-left"><img class= "img-style" src="\images\AJ.jpg"></div>
+          <div class="p1">I am a PhD student working with Prof Apoorva Patel at the <a href="http://chep.iisc.ac.in/" target="_blank">Centre for High Energy Physics</a>,<a href="https://www.iisc.ac.in/" target="_blank"> Indian Institute of Science</a>. The main focus of my research are quantum walk based algorithms. 
+          <p>In 2020, I interned at<a href="https://www.lanl.gov/" target="_blank"> Los Alamos National Lab</a>, working on developing efficient algorithms for learning graphical models. </p>
+          <p>I have an MTech in Computational Science from <a href="https://cds.iisc.ac.in/" target="_blank">Department of Computational and Data Sciences</a>, <a href="https://www.iisc.ac.in/" target="_blank">IISc</a>. And before that I did my undergraduate studies at <a href=https://www.nitt.edu/" target="_blank">NIT Trichy</a>
+          </p>
+          </div>
+        </div>
+        </article>
+        <publications>
+          <h2 id="Publications" class="normal">Publications</h2>
+          
+            <ol class="bibliography">
+                <li>
+                  <div class="row">
+              <div class="profile-float-left"><img class="pub-img" src="\images\Pub1.img"></div>
+              <div>
+                <div class="Thick">Spatial search on graphs with multiple targets using flip-flop quantum walk</div>
+                J Abhijith, Apoorva Patel
+                <div>Quantum Information and Computation 18, 1295-1331 (2018)</div>
+                <div><a href="https://arxiv.org/abs/1801.01305" target="_blank">Read more on ArXiv.org</a></div>
+              </div>
+              </div>
+              </li>
+            
+          
+          <li><div class="row">
+              <div class="profile-float-left"><img class="pub-img" src="\images\pub2.img"></div>
+              <div>
+                <div class="Thick">Learning of Discrete Graphical Models with Neural Networks</div>
+                Abhijith J., Andrey Y. Lokhov, Sidhant Misra, Marc Vuffray
+                <div>Advances in Neural Information Processing Systems</div>
+                <div><a href="https://arxiv.org/abs/2006.11937" target="_blank">Read more on ArXiv.org</a></div>
+              </div>
+              </div>
+            </li>
+        </ol>
+          <p class="p1"><a href="Publications.html" target="_blank">View more</a></p>
+       </publications>
+       <news>
+          <h2 id="News" class="normal">News</h2>
+          <ol class="bibliography">
+            <li>
+              <div class="row">
+              <div>Jan 2020 - </div>
+              <div>
+                <div>Working with Lokhov at <a href="https://www.lanl.gov/">LANL</a></div>
+              </div>
+              </div>
+          
+        </li>
+      </ol>
+        </news>
+        <!--footer style="margin: 0 100px 0 100px;>
+        <hr style="margin: 0 100px 0 100px;>
+        <p class="p2" style="margin: 0 100px 0 100px;text-align: center", onclick="alert('EMAILING US IS USELESS');">
          Tech Support: yeah.right@server-is-down.com
-      </p>
-    </footer>
-  </body>
-</html>
+       </p>
+
+     </footer-->
+    </div>
+    </body>
+    </html>
